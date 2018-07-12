@@ -29,3 +29,8 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 end
+
+
+book1= Book.new("title")
+book1.author= "author's name"
+puts book1.title.author
